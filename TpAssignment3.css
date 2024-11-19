@@ -1,0 +1,200 @@
+/*
+    Program Name: TpAssignment3.css
+    Author: Maria Ortiz
+    Date Created: 10/10/2024
+    Date last updated: 10/10/2024
+    Version: TpAssignment3.css 2.0
+    Purpose: Homework 3 CSS new patient registration form
+*/
+
+
+header {
+    width: 100%;
+    background-color:rgba(165, 84, 84, 0.128);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-color: floralwhite;
+    margin: 0;
+    height: 100%;
+    min-height: 100vh;
+}
+
+form {
+    flex-grow: 1;
+}
+
+h1,h2 {
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    flex-grow: 1;
+}
+
+main {
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    flex-grow: 1;
+}
+
+.image{
+    text-align: left;
+}
+
+.td {
+    text-align:right;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:normal;
+    margin-right: 50%;
+}
+
+.td1 {
+    text-align: right;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:normal;
+}
+
+th {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+footer {
+    position:flex;
+    bottom: 0;
+    width: 100%;
+    background-color:rgba(165, 84, 84, 0.128);
+    height: 3.0 rem;
+}
+
+#footer {
+    text-align: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    margin-right: 20px;
+}
+
+label {
+    text-align: right;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+    margin-right: 10px;
+}
+
+input {
+    text-align: left;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+}
+
+textarea {
+    text-align: left;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+}
+
+#today {
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+p {
+    text-align: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold
+}
+
+.pword-message {
+    text-align: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    position: relative;
+    left: 100px;
+    background: transparent;
+    padding: 10px;
+    border-spacing: 2px;
+    color: red;
+}
+
+#review {
+    margin-top: 5px;
+}
+
+table.output,
+tr.output,
+td.output {
+    width: 50px;
+    background-color: bisque;
+    padding: 10px;
+    border-spacing: 2px;
+    border-radius: 20px;
+    color: black;
+}
+
+td.outputdata {
+    width: 500px;
+    background-color:bisque;
+    padding: 10px;
+    border-spacing: 2px;
+}
+
+/*alert-box styling*/
+#alert-box {
+    display:none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(255, 196, 240);
+}
+
+#alert-content {
+    background-color: white;
+    border-radius: 10px;
+    width: 300px;
+    height: 100px;
+    margin: auto;
+    margin-top:20%;
+    padding: 30px;
+    text-align: center;
+}
+#alert-content h4 {
+    margin-top: 20%;
+    font-size: 20px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+#close-alert {
+    background-color: white;
+    border-width: 1px;
+    border-style: solid;
+    color: rgb(255, 196, 240);
+    border-color:rgb(255, 196, 240) ;
+    font-size: 15px;
+    font-weight: bold;
+    height: 20px;
+    width: 80px;
+    border-radius: 20 px;
+    cursor: pointer;
+
+    margin-top: 20px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
